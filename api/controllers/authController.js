@@ -1,0 +1,60 @@
+const User = require("../models/userSchema");
+const { StatusCodes } = require("http-status-codes");
+const { BadRequest } = require("../errors/index");
+const jwt = require("jsonwebtoken");
+require("dotenv").config();
+
+const registerUser = async (req, res) => {
+  const { username, email } = req.body;
+
+  const existingUser = await User.findOne({
+    $or: [{ username }, { email }],
+  });
+  if (existingUser) {
+    throw new BadRequest("User with this username or email already exists.");
+  }
+
+  let newUser;
+  newUser = await User.create(req.body);
+  return res.status(StatusCodes.CREATED).json({
+    data: newUser,
+    message: "User registered successfully.",
+  });
+};
+
+const loginUser = async (req, res) => {
+  const { username, password } = req.body;
+
+  if (!username || !password) {
+    throw new BadRequest("Username and Password are required.");
+  }
+
+  const user = await User.findOne({ username });
+  if (!user) {
+    throw new BadRequest("Invalid Credentials!");
+  }
+
+  const isPasswordCorrect = await user.checkPassword(password);
+  if (!isPasswordCorrect) {
+    throw new BadRequest("Invalid Credentials!");
+  }
+
+  const token = jwt.sign(
+    { id: user._id, username: user.username },
+    process.env.JWT_SECRET,
+    { expiresIn: "7d" }
+  );
+
+  const { password: _, ...userInfo } = user._doc;
+
+  return res.status(StatusCodes.OK).json({
+    data: userInfo,
+    token,
+    message: "Login Successful!",
+  });
+};
+
+module.exports = {
+  registerUser,
+  loginUser,
+};
