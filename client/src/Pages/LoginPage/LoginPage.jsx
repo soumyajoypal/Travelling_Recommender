@@ -122,7 +122,11 @@ const LoginPage = () => {
         <div className="text-center text-sm text-white/70">
           New here?
           <button
-            onClick={() => navigate("/register")}
+            onClick={() => {
+              console.log("Clicked");
+
+              navigate("/register");
+            }}
             className="ml-2 text-cyan-400 hover:text-cyan-300 transition"
           >
             Create account

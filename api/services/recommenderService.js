@@ -1,13 +1,15 @@
 const axios = require("axios");
+const Review = require("../models/reviewsSchema");
 
 const processRecommendation = async (userId, preferences) => {
-  const response = await axios.post("http://localhost:8001/recommend/content", {
-    category: preferences.category,
-    region: preferences.region,
-    budget: preferences.budget,
-    bestTime: preferences.bestTime,
-  });
+  const reviewCount = await Review.countDocuments({ userId });
+  const isColdStart = reviewCount === 0;
+  const endpoint = isColdStart ? "/recommend/content" : "/recommend/hybrid";
 
+  const response = await axios.post(`http://localhost:8001${endpoint}`, {
+    ...preferences,
+    userId: isColdStart ? null : userId,
+  });
   return response.data;
 };
 

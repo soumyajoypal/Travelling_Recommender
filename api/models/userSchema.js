@@ -45,10 +45,19 @@ const userSchema = new mongoose.Schema(
       required: [true, "Please Enter Your Password!"],
     },
     preferences: {
-      category: { type: String },
-      region: { type: String },
-      budget: { type: String },
-      bestTime: { type: String },
+      category: String,
+      region: String,
+      budget: String,
+      travelType: String,
+      zone: String,
+      bestTime: String,
+    },
+
+    recommendations: {
+      data: { type: Array, default: [] },
+      mode: { type: String },
+      generatedAt: { type: Date },
+      prefHash: { type: String },
     },
   },
   { timestamps: true }

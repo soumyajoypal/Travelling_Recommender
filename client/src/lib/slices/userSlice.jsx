@@ -91,7 +91,7 @@ const userSlice = createSlice({
         state.error = null;
       })
       .addCase(logoutUser.fulfilled, (state) => {
-        state.status = "succeeded";
+        state.status = "idle";
         state.user = null;
       })
       .addCase(logoutUser.rejected, (state, action) => {

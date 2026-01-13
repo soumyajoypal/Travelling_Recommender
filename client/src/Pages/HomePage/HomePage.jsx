@@ -1,7 +1,10 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { MapPin, Globe, Wallet, CloudSun, Search } from "lucide-react";
 import { Heart } from "lucide-react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchRecommendations } from "../../lib/slices/recommenderSlice";
+import { logoutUser } from "../../lib/slices/userSlice";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -11,40 +14,11 @@ const HomePage = () => {
     budget: "",
     bestTime: "",
   });
-
-  const recommendations = [
-    {
-      name: "Manali",
-      category: "Hill Station",
-      region: "Himachal Pradesh",
-    },
-    {
-      name: "Goa",
-      category: "Beach Destination",
-      region: "Western India",
-    },
-    {
-      name: "Jaipur",
-      category: "Heritage City",
-      region: "Rajasthan",
-    },
-    {
-      name: "Munnar",
-      category: "Nature Retreat",
-      region: "Kerala",
-    },
-    {
-      name: "Rishikesh",
-      category: "Spiritual & Adventure",
-      region: "Uttarakhand",
-    },
-    {
-      name: "Darjeeling",
-      category: "Hill Station",
-      region: "West Bengal",
-    },
-  ];
-
+  const { user } = useSelector((state) => state.user);
+  const dispatch = useDispatch();
+  const { recommendations, status, error } = useSelector(
+    (state) => state.recommender
+  );
   return (
     <div className="min-h-screen bg-[#020617] text-white overflow-x-hidden">
       {/* ================= HERO ================= */}
@@ -61,22 +35,29 @@ const HomePage = () => {
         {/* Top-right Auth Actions */}
         <div className="absolute top-6 right-6 z-20 flex items-center gap-3">
           <button
-            onClick={() => navigate("/login")}
+            onClick={() => {
+              if (!user) {
+                navigate("/login");
+              }
+              dispatch(logoutUser());
+            }}
             className="px-5 py-2 rounded-full text-sm font-medium
                text-white border border-white/30
                hover:bg-white/10 transition backdrop-blur-md"
           >
-            Login
+            {!user ? `Login` : "Logout"}
           </button>
 
-          <button
-            onClick={() => navigate("/register")}
-            className="px-5 py-2 rounded-full text-sm font-bold
+          {!user && (
+            <button
+              onClick={() => navigate("/register")}
+              className="px-5 py-2 rounded-full text-sm font-bold
                bg-white text-black
                hover:bg-gray-200 transition"
-          >
-            Sign up
-          </button>
+            >
+              Sign up
+            </button>
+          )}
         </div>
 
         {/* Content */}
@@ -128,8 +109,8 @@ const HomePage = () => {
                    text-white w-full"
                 >
                   <option value="">Category</option>
-                  <option value="beach" className="text-black">
-                    Beach
+                  <option value="city" className="text-black">
+                    City
                   </option>
                   <option value="hill" className="text-black">
                     Hill
@@ -156,8 +137,8 @@ const HomePage = () => {
                    text-white w-full"
                 >
                   <option value="">Region</option>
-                  <option value="north" className="text-black">
-                    North
+                  <option value="delhi" className="text-black">
+                    Delhi
                   </option>
                   <option value="south" className="text-black">
                     South
@@ -218,8 +199,8 @@ const HomePage = () => {
                   <option value="summer" className="text-black">
                     Summer
                   </option>
-                  <option value="winter" className="text-black">
-                    Winter
+                  <option value="nov-feb" className="text-black">
+                    nov-feb
                   </option>
                   <option value="monsoon" className="text-black">
                     Monsoon
@@ -232,6 +213,12 @@ const HomePage = () => {
                 className="h-14 px-8 bg-white text-black rounded-2xl
              font-bold hover:bg-gray-200 transition
              flex items-center gap-3 justify-center whitespace-nowrap"
+                onClick={() => {
+                  if (!user) {
+                    navigate("/register");
+                  }
+                  dispatch(fetchRecommendations(preferences));
+                }}
               >
                 <Search size={18} />
                 <span>Get Trips</span>
@@ -241,38 +228,50 @@ const HomePage = () => {
         </div>
       </section>
       {/* Recommendations Section */}
-      <section className="relative px-6 py-28">
-        {/* subtle background fade */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-transparent" />
+      {status === "loading" && (
+        <div className="flex justify-center items-center py-20">
+          <div className="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-16 w-16"></div>
+        </div>
+      )}
+      {error && (
+        <div className="text-red-500 text-center mt-6">
+          <p>{error}</p>
+        </div>
+      )}
+      {status === "succeeded" && (
+        <section className="relative px-6 py-28">
+          {/* subtle background fade */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-black/30 to-transparent" />
 
-        <div className="relative z-10 max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-14 text-center tracking-tight">
-            Recommended For You
-          </h2>
+          <div className="relative z-10 max-w-6xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold mb-14 text-center tracking-tight">
+              Recommended For You
+            </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {recommendations.map((place) => (
-              <div
-                key={place.name}
-                className="glass-panel rounded-2xl p-6
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+              {recommendations.map((place) => (
+                <div
+                  key={place.name}
+                  className="glass-panel rounded-2xl p-6
                      hover:scale-[1.04] hover:bg-white/15
                      transition-all duration-300 cursor-pointer"
-              >
-                {/* Card Content */}
-                <div className="flex flex-col gap-3">
-                  <h3 className="text-xl font-semibold tracking-tight">
-                    {place.name}
-                  </h3>
+                >
+                  {/* Card Content */}
+                  <div className="flex flex-col gap-3">
+                    <h3 className="text-xl font-semibold tracking-tight">
+                      {place.destination_name}
+                    </h3>
 
-                  <p className="text-sm text-gray-400 uppercase tracking-wide">
-                    {place.category} • {place.region}
-                  </p>
+                    <p className="text-sm text-gray-400 uppercase tracking-wide">
+                      {place.category} • {place.region}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {/* ================= POPULAR DESTINATIONS ================= */}
       <section className="py-28 px-6 max-w-7xl mx-auto">
