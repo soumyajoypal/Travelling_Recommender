@@ -7,3 +7,6 @@
   padding: 0;
   box-sizing: border-box;
 }
+.glass-panel {
+  @apply bg-white/10 backdrop-blur-xl border border-white/20;
+}
