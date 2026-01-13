@@ -1,0 +1,501 @@
+destination_id,destination_name,region,category,popularity,best_time,Type,Zone,time needed to visit in hrs,Google review rating,budget
+1,India Gate,Delhi,historical,4.52,sep-mar,War Memorial,northern,0.5,4.6,low
+2,Humayun'S Tomb,Delhi,historical,3.65,nov-feb,Tomb,northern,2,4.5,medium
+3,Akshardham Temple,Delhi,religious,4.46,nov-feb,Temple,northern,5,4.6,low
+4,Waste To Wonder Park,Delhi,entertainment,3.6,nov-feb,Theme Park,northern,2,4.1,high
+5,Jantar Mantar,Delhi,cultural,3.82,sep-mar,Observatory,northern,2,4.2,medium
+6,Chandni Chowk,Delhi,city,3.77,oct-feb,Market,northern,3,4.2,medium
+7,Lotus Temple,Delhi,religious,3.81,nov-feb,Temple,northern,1,4.5,low
+8,Red Fort,Delhi,historical,4.1,oct-feb,Fort,northern,2,4.5,medium
+9,Agrasen Ki Baoli,Delhi,city,4.51,sep-mar,Stepwell,northern,1,4.2,medium
+10,Sunder Nursery,Delhi,city,4.59,sep-mar,Park,northern,2,4.6,low
+11,Garden Of Five Senses,Delhi,city,4.11,oct-feb,Park,northern,2,4.1,low
+12,Lodhi Garden,Delhi,city,4.11,sep-mar,Park,northern,1,4.5,low
+13,National Gallery Of Modern Art,Delhi,cultural,4.39,oct-mar,Museum,northern,3,4.5,medium
+14,National Zoological Park,Delhi,historical,3.57,nov-feb,War Memorial,northern,0.5,4.6,low
+15,Qutub Minar,Delhi,historical,4.2,oct-mar,Monument,northern,1,4.5,medium
+16,National Science Centre,Delhi,cultural,4.36,oct-mar,Science,northern,5,4.4,medium
+17,Marine Drive,Maharashtra,city,3.81,oct-mar,Promenade,western,2,4.5,medium
+18,Gateway Of India,Maharashtra,historical,4.54,nov-feb,Monument,western,1,4.6,medium
+19,Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,Maharashtra,cultural,4.16,oct-mar,Museum,western,1,4.6,medium
+20,Sanjay Gandhi National Park,Maharashtra,wildlife,3.64,sep-mar,National Park,western,3,4.3,medium
+21,Siddhivinayak Temple,Maharashtra,religious,4.51,oct-feb,Temple,western,2,4.8,low
+22,Mahalaxmi Temple,Maharashtra,religious,4.65,nov-feb,Temple,western,1,4.7,low
+23,Haji Ali Dargah,Maharashtra,religious,3.79,oct-mar,Religious Shrine,western,2,4.4,medium
+24,Chowpatty Beach,Maharashtra,nature,3.61,oct-feb,Beach,western,2,4.3,low
+25,Essel World,Maharashtra,entertainment,3.71,nov-feb,Amusement Park,western,5,4.3,high
+26,Elephanta Caves,Maharashtra,historical,4.17,sep-mar,Monument,western,4,4.3,medium
+27,Imagicaa,Maharashtra,entertainment,4.74,oct-mar,Amusement Park,western,5,1.4,high
+28,Bangalore Palace,Karnataka,historical,4.38,oct-feb,Palace,southern,2,4.2,medium
+29,Lalbagh Botanical Garden,Karnataka,city,4.75,sep-mar,Botanical Garden,southern,1.5,4.4,medium
+30,Cubbon Park,Karnataka,city,3.95,sep-mar,Park,southern,1,4.4,low
+31,Vidhana Soudha,Karnataka,city,3.6,nov-feb,Government Building,southern,0.5,4.6,medium
+32,Iskcon Temple Bangalore,Karnataka,religious,4.44,sep-mar,Temple,southern,1,4.6,low
+33,Charminar,Telangana,city,3.62,sep-mar,Landmark,southern,1,4.5,medium
+34,Golconda Fort,Telangana,historical,3.54,nov-feb,Fort,southern,2,4.4,medium
+35,Hussain Sagar Lake,Telangana,nature,4.77,nov-feb,Lake,southern,1,4.3,low
+36,Ramoji Film City,Telangana,entertainment,4.12,nov-feb,Film Studio,southern,4,4.4,high
+37,Salar Jung Museum,Telangana,cultural,4.05,sep-mar,Museum,southern,2,4.4,medium
+38,Qutb Shahi Tombs,Telangana,historical,4.31,sep-mar,Tombs,southern,1,4.4,medium
+39,Birla Mandir,Telangana,religious,3.95,sep-mar,Temple,southern,1,4.7,low
+40,Chowmahalla Palace,Telangana,historical,3.54,oct-mar,Palace,southern,1.5,4.4,medium
+41,Nehru Zoological Park,Telangana,wildlife,4.69,oct-feb,Zoo,southern,3,4.2,medium
+42,Lumbini Park,Telangana,city,4.6,nov-feb,Park,southern,1,4.1,low
+43,Victoria Memorial,West Bengal,cultural,4.12,sep-mar,Museum,eastern,1.5,4.6,medium
+44,Howrah Bridge,West Bengal,city,3.94,sep-mar,Bridge,eastern,0.5,4.6,medium
+45,Indian Museum,West Bengal,cultural,4.31,oct-mar,Museum,eastern,2,4.6,medium
+46,Dakshineswar Kali Temple,West Bengal,religious,4.29,nov-feb,Temple,eastern,1,4.7,low
+47,Kalighat Kali Temple,West Bengal,religious,3.73,oct-feb,Temple,eastern,1,4.4,low
+48,Eden Gardens,West Bengal,city,3.98,oct-feb,Cricket Ground,eastern,3,4.1,medium
+49,Alipore Zoological Gardens,West Bengal,wildlife,3.53,nov-feb,Zoo,eastern,2,4.3,medium
+50,Science City Kolkata,West Bengal,cultural,3.66,sep-mar,Science,eastern,3,4.4,medium
+51,Belur Math,West Bengal,historical,4.23,oct-mar,Site,eastern,1.5,4.7,medium
+52,Marble Palace,West Bengal,historical,4.54,nov-feb,Palace,eastern,1,4.4,medium
+53,Calangute Beach,Goa,nature,4.12,oct-feb,Beach,western,2,4.4,low
+54,Basilica Of Bom Jesus,Goa,religious,4.49,oct-mar,Church,western,1,4.5,low
+55,Fort Aguada,Goa,historical,4.8,oct-feb,Fort,western,1.5,4.2,medium
+56,Dudhsagar Falls,Goa,nature,3.91,oct-feb,Waterfall,western,3,4.6,medium
+57,Anjuna Beach,Goa,nature,3.89,oct-mar,Beach,western,2,4.4,low
+58,Chapora Fort,Goa,historical,4.05,oct-feb,Fort,western,1,4.2,medium
+59,Se Cathedral,Goa,religious,4.45,oct-feb,Church,western,1,4.5,low
+60,Baga Beach,Goa,nature,4.72,oct-mar,Beach,western,2,4.5,low
+61,Arambol Beach,Goa,nature,4.45,oct-mar,Beach,western,2,4.6,low
+62,Palolem Beach,Goa,nature,4.68,oct-feb,Beach,western,2,4.6,low
+63,Colva Beach,Goa,nature,3.7,oct-mar,Beach,western,2,4.3,low
+64,Miramar Beach,Goa,nature,4.68,nov-feb,Beach,western,1.5,4.2,low
+65,Aguada Beach,Goa,nature,4.26,oct-mar,Beach,western,2,4.5,low
+66,Dr. Salim Ali Bird Santuary,Goa,wildlife,4.18,oct-mar,Bird Sanctuary,western,2,3.9,medium
+67,Sabarmati Ashram,Gujarat,historical,4.54,oct-feb,Historical,western,1.5,4.6,medium
+68,Dwarkadhish Temple,Gujarat,religious,3.71,oct-feb,Temple,western,2,4.7,low
+69,Gir National Park,Gujarat,wildlife,4.7,oct-feb,National Park,western,3,4.5,medium
+70,White Desert,Gujarat,historical,4.7,oct-feb,Site,western,2.5,4.6,medium
+71,Laxmi Vilas Palace,Gujarat,historical,4.25,nov-feb,Palace,western,2,4.4,medium
+72,Somnath Temple,Gujarat,religious,4.39,nov-feb,Temple,western,2,4.8,low
+73,Rann Utsav,Gujarat,cultural,3.95,sep-mar,Cultural,western,3,4.9,medium
+74,Statue Of Unity,Gujarat,historical,3.75,nov-feb,Monument,western,3,4.6,medium
+75,Dandi Kutir,Gujarat,cultural,3.71,nov-feb,Museum,western,1.5,4.5,medium
+76,Sabarmati Riverfront,Gujarat,city,3.62,nov-feb,Urban Development Project,western,1,4.6,medium
+77,Manek Chowk,Gujarat,city,4.73,oct-feb,Market,western,2,4.4,medium
+78,Kankaria Lake,Gujarat,nature,4.61,nov-feb,Lake,western,3,4.5,low
+79,Science City,Gujarat,cultural,4.79,sep-mar,Science,western,7,4.4,medium
+80,Hawa Mahal,Rajasthan,historical,4.76,oct-mar,Palace,western,1,4.4,medium
+81,City Palace,Rajasthan,historical,3.62,oct-feb,Palace,western,2,4.4,medium
+82,City Palace,Rajasthan,historical,3.62,oct-feb,Palace,western,2,4.4,medium
+83,Jaisalmer Fort,Rajasthan,historical,4.52,oct-mar,Fort,western,2.5,4.4,medium
+84,Ranthambore National Park,Rajasthan,wildlife,3.85,oct-mar,Wildlife Sanctuary,western,3,4.6,medium
+85,Pushkar Lake,Rajasthan,religious,4.6,sep-mar,Temple,western,1.5,4.4,low
+86,Ajmer Sharif Dargah,Rajasthan,religious,4.72,oct-mar,Shrine,western,1,4.6,low
+87,Mehrangarh Fort,Rajasthan,historical,3.98,nov-feb,Fort,western,2,4.6,medium
+88,Chittorgarh Fort,Rajasthan,historical,4.3,oct-feb,Fort,western,2,4.6,medium
+89,Dilwara Temples,Rajasthan,religious,3.69,nov-feb,Temple,western,1,4.6,low
+90,Junagarh Fort,Rajasthan,historical,4.73,nov-feb,Fort,western,2,4.5,medium
+91,Amber Fort,Rajasthan,historical,4.55,oct-mar,Fort,western,2,4.6,medium
+92,Jaigarh Fort,Rajasthan,historical,3.73,sep-mar,Fort,western,1.5,4.5,medium
+93,Lake Pichola,Rajasthan,nature,4.43,sep-mar,Lake,western,1,4.6,low
+94,Golden Temple (Harmandir Sahib),Punjab,religious,4.02,nov-feb,Religious Site,northern,1.5,4.9,low
+95,Jallianwala Bagh,Punjab,historical,3.81,oct-feb,Memorial,northern,1,4.8,low
+96,Wagah Border,Punjab,city,4.65,oct-mar,Border Crossing,northern,2,4.8,medium
+97,Rock Garden,Punjab,cultural,4.06,oct-mar,Sculpture Garden,northern,2,4.5,medium
+98,Alappuzha Beach,Kerala,nature,3.59,nov-feb,Beach,southern,1.5,4.5,low
+99,Munnar Tea Gardens,Kerala,nature,4.45,nov-feb,Scenic Area,southern,2,4.3,medium
+100,Fort Kochi,Kerala,historical,3.64,oct-feb,Site,southern,1,4.4,medium
+101,Padmanabhaswamy Temple,Kerala,religious,3.64,oct-feb,Temple,southern,1,4.7,low
+102,Kozhikode Beach,Kerala,nature,3.92,oct-feb,Beach,southern,1.5,3.9,low
+103,Wayanad Wildlife Sanctuary,Kerala,wildlife,3.85,oct-mar,Wildlife Sanctuary,southern,3,4.5,medium
+104,Periyar National Park,Kerala,wildlife,4.41,oct-feb,National Park,southern,3,4.3,medium
+105,Kumarakom Bird Sanctuary,Kerala,wildlife,3.82,oct-feb,Bird Sanctuary,southern,2,3.8,medium
+106,Varkala Beach,Kerala,nature,4.18,oct-mar,Beach,southern,2,4.6,low
+107,Bekal Fort,Kerala,historical,3.67,sep-mar,Fort,southern,1.5,4.5,medium
+108,Kovalam Beach,Kerala,nature,4.08,oct-mar,Beach,southern,2,4.4,low
+109,St. Angelo Fort,Kerala,historical,3.52,oct-feb,Fort,southern,1,4.4,medium
+110,Seethargundu Viewpoint,Kerala,nature,4.73,oct-mar,Viewpoint,southern,1,4.5,low
+111,Kerala Folklore Museum,Kerala,cultural,4.26,oct-feb,Cultural,southern,1.5,4.4,medium
+112,Wonderla Amusement Park,Kerala,entertainment,4.51,sep-mar,Amusement Park,southern,5.5,4.6,high
+113,Wonderla Amusement Park,Kerala,entertainment,4.51,sep-mar,Amusement Park,southern,5.5,4.6,high
+114,Mysore Palace,Karnataka,historical,4.74,nov-feb,Palace,southern,2,4.6,medium
+115,Hampi Archaeological Ruins,Karnataka,historical,3.71,nov-feb,Site,southern,3,4.7,medium
+116,Abbey Falls,Karnataka,nature,4.41,oct-feb,Waterfall,southern,1,4.1,medium
+117,Om Beach,Karnataka,nature,3.68,oct-feb,Beach,southern,2,4.5,low
+118,Mullayanagiri,Karnataka,nature,3.66,oct-mar,Mountain Peak,southern,3,4.5,medium
+119,Badami Cave Temples,Karnataka,nature,3.78,oct-feb,Cave,southern,1.5,4.6,low
+120,Jog Falls,Karnataka,nature,4.3,nov-feb,Waterfall,southern,1.5,4.6,medium
+121,Panambur Beach,Karnataka,nature,4.6,oct-feb,Beach,southern,1.5,4.5,low
+122,Murudeshwar Temple,Karnataka,religious,3.89,nov-feb,Temple,southern,1,4.7,low
+123,Gol Gumbaz,Karnataka,historical,3.74,nov-feb,Mausoleum,southern,1.5,4.5,medium
+124,Bandipur National Park,Karnataka,wildlife,3.77,nov-feb,National Park,southern,3,4.4,medium
+125,Halebidu Hoysaleswara Temple,Karnataka,religious,4.33,sep-mar,Temple,southern,1,4.7,low
+126,Shaniwar Wada,Maharashtra,historical,4.14,sep-mar,Fort,western,2,4.4,medium
+127,Ajanta Caves,Maharashtra,nature,3.94,nov-feb,Cave,western,3,4.6,low
+128,Sula Vineyards,Maharashtra,nature,3.83,oct-mar,Vineyard,western,2,4.1,medium
+129,Sai Baba Temple,Maharashtra,religious,3.88,oct-mar,Temple,western,1.5,4.7,low
+130,Alibaug Beach,Maharashtra,nature,3.61,sep-mar,Beach,western,1.5,4.2,low
+131,Ganapatipule Temple,Maharashtra,religious,3.53,sep-mar,Temple,western,1,4.7,low
+132,Deekshabhoomi,Maharashtra,historical,4,oct-mar,Monument,western,1,4.5,medium
+133,Mahalakshmi Temple,Maharashtra,religious,4.36,sep-mar,Temple,western,1,4.8,low
+134,Karla Caves,Maharashtra,nature,3.83,oct-mar,Cave,western,1.5,4.4,low
+135,Tarkarli Beach,Maharashtra,nature,4.62,oct-feb,Beach,western,2,4.6,low
+136,Kaas Plateau,Maharashtra,nature,4.35,nov-feb,Valley,western,2,4.4,medium
+137,Echo Point,Maharashtra,nature,4.18,sep-mar,Viewpoint,western,1.5,4.4,low
+138,Ellora Caves,Maharashtra,nature,4.47,nov-feb,Cave,western,3,4.7,low
+139,Khajuraho Group Of Monuments,Madhya Pradesh,religious,4.29,oct-mar,Temples,central,2,4.7,medium
+140,Sanchi Stupa,Madhya Pradesh,historical,4.35,oct-feb,Monument,central,1.5,4.7,medium
+141,Rajwada Palace,Madhya Pradesh,historical,4.62,sep-mar,Palace,central,1,4.4,medium
+142,Gwalior Fort,Madhya Pradesh,historical,4.06,nov-feb,Fort,central,2.5,4.5,medium
+143,Mahakaleshwar Jyotirlinga,Madhya Pradesh,religious,3.68,sep-mar,Temple,central,1.5,4.8,low
+144,Dhuandhar Falls,Madhya Pradesh,nature,4.38,oct-feb,Waterfall,central,1,4.5,medium
+145,Bee Falls,Madhya Pradesh,nature,3.93,sep-mar,Waterfall,central,1.5,4.6,medium
+146,Kanha National Park,Madhya Pradesh,wildlife,4.12,oct-feb,Wildlife Sanctuary,central,3,4.5,medium
+147,Bandhavgarh National Park,Madhya Pradesh,wildlife,3.71,sep-mar,National Park,central,3,4.5,medium
+148,Orchha Fort,Madhya Pradesh,historical,4.79,nov-feb,Fort,central,1.5,4.8,medium
+149,Jahaz Mahal,Madhya Pradesh,historical,4.02,nov-feb,Site,central,1,3.9,medium
+150,Bhimbetka Rock Shelters,Madhya Pradesh,historical,4.49,oct-mar,Prehistoric Site,central,2,4.6,medium
+151,Narmada Udgam Temple,Madhya Pradesh,religious,4.33,nov-feb,Temple,central,1,4.4,low
+152,Chitrakoot Falls,Madhya Pradesh,nature,3.97,oct-feb,Waterfall,central,1.5,4.4,medium
+153,The Ridge,Himachal Pradesh,nature,4.79,oct-mar,Scenic Point,northern,1,4.7,medium
+154,Solang Valley,Himachal Pradesh,nature,4.66,sep-mar,Valley,northern,2,4.1,medium
+155,Dalai Lama Temple,Himachal Pradesh,religious,4.56,sep-mar,Temple,northern,1.5,4.7,low
+156,Khajjiar Lake,Himachal Pradesh,nature,3.75,oct-mar,Lake,northern,1.5,4.5,low
+157,Key Monastery,Himachal Pradesh,religious,3.58,oct-mar,Monastery,northern,1,4.8,medium
+158,Great Himalayan National Park,Himachal Pradesh,wildlife,3.51,nov-feb,National Park,northern,3,4.5,medium
+159,Chamera Lake,Himachal Pradesh,nature,4.31,nov-feb,Lake,northern,2,4.4,low
+160,Sangla Valley,Himachal Pradesh,nature,4.19,nov-feb,Valley,northern,2,4.5,medium
+161,Kangra Fort,Himachal Pradesh,historical,4.73,oct-feb,Fort,northern,2,4.4,medium
+162,Tea Gardens,Himachal Pradesh,nature,4.14,nov-feb,Tea Plantation,northern,1.5,4.6,medium
+163,Prashar Lake,Himachal Pradesh,nature,4.36,oct-feb,Lake,northern,1.5,4.6,low
+164,Paragliding Site,Himachal Pradesh,adventure,3.83,sep-mar,Adventure Sport,northern,2,4.8,medium
+165,Triund Trek,Himachal Pradesh,adventure,3.8,oct-mar,Trekking,northern,5,4.8,high
+166,Manikaran Sahib,Himachal Pradesh,religious,3.79,oct-feb,Gurudwara,northern,1,4.6,low
+167,Hatu Peak,Himachal Pradesh,nature,4.36,nov-feb,Viewpoint,northern,2,4.5,low
+168,Barot Valley,Himachal Pradesh,nature,4.32,oct-feb,Valley,northern,2,4.7,medium
+169,Serolsar Lake,Himachal Pradesh,nature,3.84,oct-mar,Lake,northern,2.5,4.4,low
+170,Kufri Fun World,Himachal Pradesh,adventure,4.23,oct-mar,Ski Resort,northern,5,3.8,high
+171,Naini Lake,Uttarakhand,nature,3.98,nov-feb,Lake,northern,1.5,4.2,low
+172,Laxman Jhula,Uttarakhand,city,3.84,oct-mar,Suspension Bridge,northern,1,4.4,medium
+173,Har Ki Pauri,Uttarakhand,city,3.65,sep-mar,Ghat,northern,1,4.5,medium
+174,Robber'S Cave,Uttarakhand,nature,4.18,nov-feb,Cave,northern,1.5,4.5,low
+175,Kempty Falls,Uttarakhand,nature,3.55,oct-mar,Waterfall,northern,1.5,4.2,medium
+176,Auli Ski Resort,Uttarakhand,adventure,3.94,nov-feb,Ski Resort,northern,3,4.5,high
+177,Badrinath Temple,Uttarakhand,religious,4.68,sep-mar,Temple,northern,1,4.8,low
+178,Binsar Wildlife Sanctuary,Uttarakhand,wildlife,4.76,oct-mar,Wildlife Sanctuary,northern,2,4.3,medium
+179,Chaubatia Gardens,Uttarakhand,nature,3.99,oct-mar,Orchard,northern,1,4,medium
+180,Jim Corbett National Park,Uttarakhand,wildlife,4.02,nov-feb,National Park,northern,3,4.4,medium
+181,Gangotri Temple,Uttarakhand,religious,4.58,nov-feb,Temple,northern,1,4.8,low
+182,Tungnath Temple,Uttarakhand,religious,3.76,oct-feb,Temple,northern,2,4.8,low
+183,Valley Of Flowers,Uttarakhand,wildlife,4.1,oct-mar,National Park,northern,5,4.7,medium
+184,Taj Mahal,Uttar Pradesh,historical,4.67,nov-feb,Mausoleum,northern,2,4.6,medium
+185,Kashi Vishwanath Temple,Uttar Pradesh,religious,4.49,nov-feb,Temple,northern,1,4.7,low
+186,Bara Imambara,Uttar Pradesh,historical,4.62,sep-mar,Monument,northern,1.5,4.4,medium
+187,Krishna Janmabhoomi,Uttar Pradesh,religious,4.16,oct-mar,Temple,northern,1,4.7,low
+188,Ram Janmabhoomi,Uttar Pradesh,religious,4.14,nov-feb,Religious Site,northern,1,4.8,low
+189,Banke Bihari Temple,Uttar Pradesh,religious,4.32,oct-mar,Temple,northern,1,4.8,low
+190,Triveni Sangam,Uttar Pradesh,nature,4.42,oct-mar,Confluence,northern,1,4.5,medium
+191,Jhansi Fort,Uttar Pradesh,historical,4.41,sep-mar,Fort,northern,1.5,4.4,medium
+192,Dhamek Stupa,Uttar Pradesh,historical,4.51,oct-mar,Monument,northern,1,4.6,medium
+193,Buland Darwaza,Uttar Pradesh,historical,4.1,oct-feb,Monument,northern,2,4.4,medium
+194,Okhla Bird Sanctuary,Uttar Pradesh,wildlife,4.54,oct-feb,Bird Sanctuary,northern,1.5,4.3,medium
+195,Aligarh Fort,Uttar Pradesh,historical,4.07,oct-feb,Fort,northern,1,4.1,medium
+196,Augarnath Temple,Uttar Pradesh,religious,3.81,nov-feb,Temple,northern,1,4.8,low
+197,Allen Forest Zoo,Uttar Pradesh,wildlife,3.81,sep-mar,Zoo,northern,2,4.2,medium
+198,Dal Lake,Jammu and Kashmir,nature,3.51,oct-feb,Lake,northern,2,4.6,low
+199,Pangong Tso,Ladakh,nature,4.08,nov-feb,Lake,northern,2,4.9,low
+200,Betaab Valley,Jammu and Kashmir,nature,4.73,nov-feb,Valley,northern,2,4.6,medium
+201,Vaishno Devi,Jammu and Kashmir,religious,4.46,sep-mar,Temple,northern,5,4.7,low
+202,Patnitop Height,Jammu and Kashmir,nature,4.27,nov-feb,Hill,northern,2,4.1,medium
+203,Amarnath Cave,Jammu and Kashmir,religious,3.84,oct-mar,Temple,northern,6,4.5,low
+204,Thiksey Monastery,Ladakh,religious,4.58,oct-feb,Monastery,northern,1.5,4.7,medium
+205,Bhitarkanika National Park,odisha,wildlife,4.4,nov-mar,national park,eastern,4,4.6,medium
+206,Nubra Valley,Ladakh,nature,4.52,nov-feb,Valley,northern,2,4.5,medium
+207,Kargil War Memorial,Ladakh,historical,4.02,oct-feb,War Memorial,northern,1,4.8,low
+208,Diskit Monastery,Ladakh,religious,3.7,nov-feb,Monastery,northern,1,4.7,medium
+209,Kishtwar National Park,Jammu and Kashmir,wildlife,4.34,sep-mar,National Park,northern,3,4.3,medium
+210,Hemis National Park,Ladakh,wildlife,4.75,nov-feb,National Park,northern,4,4.4,medium
+211,Dras War Memorial,Ladakh,historical,4.46,nov-feb,War Memorial,northern,1,4.8,low
+212,Magnetic Hill,Ladakh,city,3.75,oct-feb,Gravity Hill,northern,0.5,3.7,medium
+213,Khardung La Pass,Ladakh,nature,4.36,oct-feb,Hill,northern,1,4.5,medium
+214,Prem Mandir,Uttar Pradesh,religious,3.72,oct-mar,Temple,northern,1.5,4.8,low
+215,Kirti Mandir,Uttar Pradesh,historical,4.57,oct-mar,Memorial,northern,1,4.8,low
+216,Nand Gaon,Uttar Pradesh,city,3.77,sep-mar,Village,northern,1,4.1,medium
+217,Barsana Mandir,Uttar Pradesh,religious,4.61,oct-mar,Temple,northern,1,4.8,low
+218,Tiger Hill,West Bengal,city,4.4,oct-mar,Sunrise Point,eastern,1,4.5,medium
+219,Jaldapara National Park,West Bengal,wildlife,4.33,nov-feb,Wildlife Sanctuary,eastern,3,4.4,medium
+220,Sundarbans National Park,West Bengal,wildlife,4.45,sep-mar,National Park,eastern,4,4.4,medium
+221,Digha Beach,West Bengal,nature,4.05,oct-mar,Beach,eastern,1.5,4.5,low
+222,Hazarduari Palace,West Bengal,historical,4.78,oct-mar,Palace,eastern,1.5,4.5,medium
+223,Kankalitala Temple,West Bengal,religious,4.52,oct-feb,Temple,eastern,0.5,4.7,low
+224,Hangseswari Temple,West Bengal,religious,3.93,oct-feb,Temple,eastern,0.5,4.6,low
+225,Gorumara National Park,West Bengal,wildlife,4.77,oct-mar,National Park,eastern,3,4.4,medium
+226,Cooch Behar Palace,West Bengal,historical,3.69,sep-mar,Palace,eastern,1,4.5,medium
+227,Ayodhya Hills,West Bengal,nature,4.25,oct-feb,Hill,eastern,2.5,4.5,medium
+228,Jagannath Temple,Odisha,religious,3.56,oct-feb,Temple,eastern,2,4.7,low
+229,Sun Temple,Odisha,religious,4.74,oct-mar,Temple,eastern,1.5,4.7,low
+230,Lingaraj Temple,Odisha,religious,4.29,sep-mar,Temple,eastern,1,4.6,low
+231,Khandadhar Waterfall,Odisha,nature,4.66,nov-feb,Waterfall,eastern,1.5,4.5,medium
+232,Barabati Fort,Odisha,historical,4.3,sep-mar,Fort,eastern,1,4.5,medium
+233,Hirakud Dam,Odisha,city,3.53,nov-feb,Dam,eastern,1,4.5,medium
+234,Chilika Lake,Odisha,nature,4.68,oct-mar,Lake,eastern,2,3.9,low
+235,Tara Tarini Temple,Odisha,religious,4.72,oct-mar,Temple,eastern,1,4.6,low
+236,Badaghagara Waterfall,Odisha,nature,4.27,oct-mar,Waterfall,eastern,1,4.3,medium
+237,Chandipur Beach,Odisha,nature,4.35,nov-feb,Beach,eastern,1.5,4.2,low
+238,Sanaghagara Waterfall,Odisha,nature,4.11,oct-feb,Waterfall,eastern,1,4.4,medium
+239,Marina Beach,Tamil Nadu,nature,4.64,sep-mar,Beach,southern,1.5,3.9,low
+240,Meenakshi Amman Temple,Tamil Nadu,religious,3.85,nov-feb,Temple,southern,2,4.7,low
+241,Ramanathaswamy Temple,Tamil Nadu,religious,4.51,nov-feb,Temple,southern,1.5,4.6,low
+242,Chhota Imambara,Uttar Pradesh,historical,4.3,oct-mar,Monument,northern,2,4.5,medium
+243,Vivekananda Rock Memorial,Tamil Nadu,historical,3.81,sep-mar,Memorial,southern,1,4.6,low
+244,Ooty Lake,Tamil Nadu,nature,4.29,nov-feb,Lake,southern,1,4.1,low
+245,Marudamalai Temple,Tamil Nadu,religious,4.11,oct-feb,Temple,southern,1,4.7,low
+246,Kodaikanal Lake,Tamil Nadu,nature,4.6,oct-feb,Lake,southern,2,3.9,low
+247,Brihadeeswarar Temple,Tamil Nadu,religious,4.58,sep-mar,Temple,southern,1.5,4.8,low
+248,Shore Temple,Tamil Nadu,religious,3.58,oct-mar,Temple,southern,1,4.6,low
+249,Yercaud Lake,Tamil Nadu,nature,3.69,sep-mar,Lake,southern,1,4.2,low
+250,Nellaiappar Temple,Tamil Nadu,religious,3.93,oct-feb,Temple,southern,1,4.6,low
+251,Nataraja Temple,Tamil Nadu,religious,3.89,nov-feb,Temple,southern,1,4.7,low
+252,Kanaka Durga Temple,Andhra Pradesh,religious,4.58,oct-mar,Temple,southern,1,4.7,low
+253,Rishikonda Beach,Andhra Pradesh,nature,4.06,nov-feb,Beach,southern,1.5,4.5,low
+254,Mallikarjuna Swamy Temple,Andhra Pradesh,religious,4.01,oct-mar,Temple,southern,1,4.7,low
+255,Papikondalu,Andhra Pradesh,nature,4.6,oct-mar,Hill,southern,2,4.3,medium
+256,Lepakshi,Andhra Pradesh,historical,4.57,sep-mar,Site,southern,1.5,4.6,medium
+257,Belum Caves,Andhra Pradesh,nature,3.71,sep-mar,Cave,southern,1.5,4.4,low
+258,Amaravathi Temple,Andhra Pradesh,religious,4.41,oct-mar,Temple,southern,1,4.7,low
+259,Uppalapadu Bird Sanctuary,Andhra Pradesh,wildlife,4.15,oct-mar,Bird Sanctuary,southern,1,4.4,medium
+260,Gandikota Fort,Andhra Pradesh,historical,3.78,oct-feb,Fort,southern,1.5,4.5,medium
+261,Prasanthi Nilayam,Andhra Pradesh,religious,3.83,oct-mar,Spiritual Center,southern,1,4.7,medium
+262,Simhachalam Temple,Andhra Pradesh,religious,3.81,oct-mar,Temple,southern,1,4.7,low
+263,Kailasagiri,Andhra Pradesh,nature,4.32,oct-mar,Hill,southern,2,4.5,medium
+264,Submarine Museum,Andhra Pradesh,cultural,4.59,oct-feb,Museum,southern,1,4.6,medium
+265,Borra Caves,Andhra Pradesh,nature,4.41,sep-mar,Cave,southern,2,4.5,low
+266,War Memorial,Andhra Pradesh,historical,4.74,oct-mar,War Memorial,southern,1,4.6,low
+267,Indira Gandhi Zoological Park,Andhra Pradesh,wildlife,4.64,oct-mar,Zoo,southern,2,4.1,medium
+268,Matsyadarshini Aquarium,Andhra Pradesh,entertainment,3.95,sep-mar,Aquarium,southern,1,3.8,high
+269,Visakha Museum,Andhra Pradesh,cultural,4.39,nov-feb,Museum,southern,1,4.3,medium
+270,Nathula Pass,Sikkim,nature,3.63,sep-mar,Hill,north eastern,2,4.3,medium
+271,Pemayangtse Monastery,Sikkim,religious,4.09,oct-mar,Monastery,north eastern,1,4.6,medium
+272,Char Dham,Sikkim,religious,3.91,oct-mar,Religious Complex,north eastern,2,4.7,medium
+273,Rumtek Monastery,Sikkim,religious,3.58,sep-mar,Monastery,north eastern,1,4.6,medium
+274,Buddha Park,Sikkim,city,3.81,oct-feb,Park,north eastern,1,4.8,low
+275,Baba Harbhajan Singh Temple,Sikkim,religious,4.79,sep-mar,Temple,north eastern,1,4.7,low
+276,Tsomgo Lake,Sikkim,nature,4.06,oct-mar,Lake,north eastern,2,4.5,low
+277,Kamakhya Temple,Assam,religious,3.57,oct-feb,Temple,north eastern,2,4.6,low
+278,Kaziranga National Park,Assam,wildlife,4.38,oct-feb,National Park,north eastern,3,4.5,medium
+279,Umananda Island,Assam,nature,3.8,oct-feb,Island,north eastern,1,4.1,medium
+280,Sivasagar Sivadol,Assam,religious,4.41,oct-feb,Temple,north eastern,1,4.7,low
+281,Majuli Island,Assam,nature,3.91,oct-feb,River Island,north eastern,2,4.7,medium
+282,Manas National Park,Assam,wildlife,4.45,sep-mar,National Park,north eastern,3,4.6,medium
+283,Hayagriva Madhava Temple,Assam,religious,4.58,oct-feb,Temple,north eastern,1,4.5,low
+284,Pobitora Wildlife Sanctuary,Assam,wildlife,4.26,oct-feb,Wildlife Sanctuary,north eastern,2,4.4,medium
+285,Tawang Monastery,Arunachal Pradesh,religious,3.63,oct-feb,Monastery,north eastern,2,4.7,medium
+286,Ujjayanta Palace,Tripura,historical,3.56,nov-feb,Palace,north eastern,1.5,4.5,medium
+287,Dumboor Lake,Tripura,nature,4.38,oct-feb,Lake,north eastern,1,4.5,low
+288,Unakoti Rock Carvings,Tripura,historical,3.84,oct-mar,Rock Carvings,north eastern,1.5,4.5,medium
+289,Chitrakote Falls,Chhattisgarh,nature,3.54,oct-feb,Waterfall,central,1.5,4.6,medium
+290,DzÃ£Â¼Kou Valley,Delhi,historical,3.6,nov-feb,War Memorial,northern,0.5,4.6,low
+291,Promenade Beach,Puducherry,nature,4.05,oct-feb,Beach,southern,1,4.5,low
+292,Auroville,Puducherry,city,3.8,oct-mar,Township,southern,2,4.1,medium
+293,Paradise Beach,Puducherry,nature,3.75,oct-feb,Beach,southern,1,4.5,low
+294,Cellular Jail,Andaman and Nicobar Islands,city,4.2,sep-mar,Landmark,,1.5,4.7,medium
+295,Radhanagar Beach,Andaman and Nicobar Islands,nature,3.65,sep-mar,Beach,,1,4.8,low
+296,Bharatpur Beach,Andaman and Nicobar Islands,nature,4.11,oct-feb,Beach,,1,4.5,low
+297,Limestone Caves,Andaman and Nicobar Islands,nature,4.58,nov-feb,Natural Feature,,1.5,4.4,medium
+298,Naida Caves,Daman and Diu,nature,4.47,oct-feb,Cave,,1,4.5,low
+299,Diu Fort,Daman and Diu,historical,3.89,sep-mar,Fort,,1.5,4.6,medium
+300,Baba Baidyanath Temple,Jharkhand,religious,3.95,sep-mar,Temple,eastern,1,4.7,low
+301,Pahari Mandir,Jharkhand,religious,3.73,oct-feb,Temple,eastern,1,4.6,low
+302,Mahabodhi Temple,Bihar,religious,4.75,sep-mar,Temple,eastern,1.5,4.7,low
+303,Sanjay Gandhi Biological Park,Bihar,wildlife,3.7,oct-mar,Zoo,eastern,2.5,4.3,medium
+304,Takhat Shri Harimandir Ji Patna Sahib,Bihar,religious,4.53,sep-mar,Gurudwara,eastern,1,4.7,low
+305,Budhha Smriti Park,Bihar,city,4.72,oct-mar,Park,eastern,1,4.4,low
+306,Kingdom Of Dreams,Haryana,entertainment,3.98,nov-feb,Entertainment,northern,3,4.4,high
+307,Ambience Mall,Haryana,entertainment,4.42,oct-feb,Mall,northern,2,4.6,medium
+308,Dlf Cyberhub,Haryana,entertainment,3.9,sep-mar,Commercial Complex,northern,2,4.7,medium
+309,Gurudwara Bangla Sahib,Delhi,religious,4.12,nov-feb,Gurudwara,northern,1,4.8,low
+310,Kedarnath,Uttarakhand,religious,4.35,sep-mar,Temple,northern,1.5,4.8,low
+311,Dlf Mall Of India,Uttar Pradesh,entertainment,3.91,oct-mar,Mall,northern,2,4.6,medium
+312,The Grand Venice Mall,Uttar Pradesh,entertainment,4.01,sep-mar,Mall,northern,2,4.2,medium
+313,Nandankanan Zoological Park,Odisha,wildlife,4.77,oct-feb,Zoo,eastern,3,4.4,medium
+314,Orion Mall,Karnataka,entertainment,3.67,nov-feb,Mall,southern,2,4.5,medium
+315,Inorbit Mall Cyberabad,Telangana,entertainment,4.36,nov-feb,Mall,southern,2,4.5,medium
+316,Jama Masjid,Delhi,religious,4.22,oct-mar,Mosque,northern,1,4.5,low
+317,Buddh International Circuit,Uttar Pradesh,city,3.78,oct-feb,Race Track,northern,2,4.6,medium
+318,Phoenix Palassio,Uttar Pradesh,entertainment,4.23,sep-mar,Mall,northern,2,4.6,medium
+319,Lulu International Shopping Mall,Kerala,entertainment,4.18,nov-feb,Mall,southern,3,4.6,medium
+320,Rail Museum,Delhi,cultural,3.54,oct-feb,Museum,northern,2,4.4,medium
+321,Living Root Bridge,Meghalaya,nature,4.79,oct-feb,Natural Feature,north eastern,2,4.6,medium
+322,Akshardham,Gujarat,religious,4.51,sep-mar,Temple,western,3,4.6,low
+323,Agra Fort,Uttar Pradesh,historical,3.94,nov-feb,Fort,northern,2,4.5,medium
+324,Madhya Pradesh Tribal Museum,Madhya Pradesh,cultural,4.5,nov-feb,Museum,central,2,4.7,medium
+325,Albert Hall Museum,Rajasthan,cultural,3.59,nov-feb,Museum,western,2,4.5,medium
+326,Hampi Bazaar,karnataka,city,4.4,oct-mar,market,southern,2,4.4,medium
+327,Virupaksha Temple,karnataka,religious,4.8,oct-mar,temple,southern,2,4.7,low
+328,Chikmagalur Coffee Estates,karnataka,city,4.3,sep-mar,plantation,southern,3,4.6,medium
+329,Agumbe Rainforest,karnataka,city,4.1,sep-feb,rainforest,southern,4,4.6,medium
+330,Kudremukh National Park,karnataka,wildlife,4.5,oct-mar,national park,southern,5,4.7,medium
+331,Bannerghatta Biological Park,karnataka,wildlife,4.6,oct-mar,zoo,southern,4,4.4,medium
+332,Nandi Hills,karnataka,nature,4.7,sep-mar,hill,southern,3,4.5,medium
+333,Savandurga Hill,karnataka,nature,4.2,oct-mar,hill,southern,4,4.5,medium
+334,Coorg Raja’s Seat,karnataka,nature,4.3,oct-mar,viewpoint,southern,1.5,4.4,low
+335,Talakaveri,karnataka,religious,4.1,oct-mar,religious site,southern,2,4.5,low
+336,Iruppu Falls,karnataka,nature,4.2,sep-jan,waterfall,southern,2,4.6,medium
+337,Nagarhole National Park,karnataka,wildlife,4.6,oct-mar,national park,southern,5,4.7,medium
+338,Dharmasthala Temple,karnataka,religious,4.7,oct-mar,temple,southern,2,4.7,low
+339,Shravanabelagola,karnataka,religious,4.4,oct-mar,religious site,southern,3,4.6,low
+340,Gokarna Main Beach,karnataka,nature,4.6,oct-mar,beach,southern,3,4.5,low
+341,Half Moon Beach Gokarna,karnataka,nature,4.2,oct-mar,beach,southern,2.5,4.6,low
+342,Yana Caves,karnataka,nature,4.3,oct-mar,cave,southern,3,4.6,low
+343,Apsara Konda Falls,karnataka,nature,3.9,sep-jan,waterfall,southern,2,4.4,medium
+344,Jogimatti Peak,karnataka,nature,4,oct-mar,mountain peak,southern,3,4.4,medium
+345,Bhadra Wildlife Sanctuary,karnataka,wildlife,4.3,oct-mar,wildlife sanctuary,southern,4,4.6,medium
+346,Dandeli Wildlife Sanctuary,karnataka,wildlife,4.4,oct-mar,wildlife sanctuary,southern,4,4.6,medium
+347,Syntheri Rocks,karnataka,nature,4,oct-mar,natural feature,southern,2,4.4,medium
+348,Supa Dam,karnataka,city,3.9,oct-feb,dam,southern,1.5,4.3,medium
+349,Anshi National Park,karnataka,wildlife,4.3,oct-mar,national park,southern,5,4.6,medium
+350,Devbagh Beach,karnataka,nature,4.2,oct-mar,beach,southern,3,4.5,low
+351,Karwar Beach,karnataka,nature,4.3,oct-mar,beach,southern,3,4.5,low
+352,Sadashivgad Fort,karnataka,historical,4.1,oct-mar,fort,southern,2,4.4,medium
+353,Mirjan Fort,karnataka,historical,4.2,oct-mar,fort,southern,2,4.5,medium
+354,Chandragutti Fort,karnataka,historical,3.8,oct-mar,fort,southern,2,4.3,medium
+355,Kavaledurga Fort,karnataka,historical,3.9,oct-mar,fort,southern,3,4.4,medium
+356,Madikeri Fort,karnataka,historical,4.2,oct-mar,fort,southern,1.5,4.4,medium
+357,Abbey Viewpoint,karnataka,nature,4.3,oct-mar,viewpoint,southern,1,4.5,low
+358,Mandalpatti Peak,karnataka,nature,4.5,oct-mar,mountain peak,southern,3,4.6,medium
+359,Raja’s Tomb Madikeri,karnataka,historical,4,oct-mar,monument,southern,1.5,4.4,medium
+360,Harangi Dam,karnataka,city,3.8,oct-feb,dam,southern,1.5,4.3,medium
+361,Chelavara Falls,karnataka,nature,4.2,sep-jan,waterfall,southern,2,4.5,medium
+362,Mallalli Falls,karnataka,nature,4.4,sep-jan,waterfall,southern,2.5,4.6,medium
+363,Honnamana Kere Lake,karnataka,nature,4.1,oct-mar,lake,southern,1.5,4.4,low
+364,Talacauvery Wildlife Sanctuary,karnataka,wildlife,4.2,oct-mar,wildlife sanctuary,southern,4,4.5,medium
+365,Chitradurga Fort,karnataka,historical,4.6,oct-mar,fort,southern,3,4.7,medium
+366,Valley of Flowers National Park,uttarakhand,wildlife,4.7,jul-sep,national park,northern,5,4.8,medium
+367,Hemkund Sahib,uttarakhand,religious,4.6,jun-sep,gurudwara,northern,4,4.8,low
+368,Auli Ropeway,uttarakhand,city,4.5,dec-mar,adventure,northern,2,4.6,high
+369,Joshimath,uttarakhand,city,4.2,mar-jun,hill town,northern,3,4.4,medium
+370,Narsingh Temple Joshimath,uttarakhand,religious,4.3,mar-jun,temple,northern,1.5,4.5,low
+371,Kalpeshwar Temple,uttarakhand,religious,4.2,apr-oct,temple,northern,2,4.5,low
+372,Chopta,uttarakhand,nature,4.6,mar-jun,valley,northern,3,4.7,medium
+373,Deoria Tal Lake,uttarakhand,nature,4.7,apr-jun,lake,northern,3,4.8,low
+374,Tungnath Chandrashila Trek,uttarakhand,adventure,4.8,apr-jun,trekking,northern,5,4.9,high
+375,Mandakini River,uttarakhand,city,4.3,mar-jun,river,northern,1.5,4.4,low
+376,Ukhimath,uttarakhand,religious,4.1,mar-jun,religious site,northern,2,4.3,low
+377,Rudranath Temple,uttarakhand,religious,4.4,may-oct,temple,northern,4,4.6,low
+378,Vasuki Tal,uttarakhand,nature,4.2,jun-sep,lake,northern,3,4.5,low
+379,Pindari Glacier Trek,uttarakhand,adventure,4.6,may-oct,trekking,northern,6,4.7,high
+380,Kausani Tea Estate,uttarakhand,city,4.4,mar-jun,plantation,northern,2,4.5,medium
+381,Baijnath Temple,uttarakhand,religious,4.3,mar-jun,temple,northern,1.5,4.5,low
+382,Binsar Zero Point,uttarakhand,nature,4.5,mar-jun,viewpoint,northern,2,4.6,low
+383,Munsiyari,uttarakhand,city,4.6,mar-jun,hill town,northern,3,4.7,medium
+384,Darkot Village,uttarakhand,city,4,mar-jun,village,northern,1.5,4.3,medium
+385,Askot Wildlife Sanctuary,uttarakhand,wildlife,4.2,mar-jun,wildlife sanctuary,northern,4,4.4,medium
+386,Buxa Tiger Reserve,west bengal,wildlife,4.4,oct-apr,wildlife sanctuary,eastern,5,4.6,medium
+387,Jayanti River,west bengal,city,4.2,oct-mar,river,eastern,1.5,4.4,low
+388,Chilapata Forest,west bengal,city,4.1,oct-mar,forest,eastern,3,4.4,medium
+389,Gajoldoba Barrage,west bengal,nature,4.3,oct-mar,scenic point,eastern,2,4.5,medium
+390,Lataguri,west bengal,city,4.2,oct-apr,wildlife hub,eastern,3,4.4,medium
+391,Samsing,west bengal,city,4.1,oct-mar,hill town,eastern,2,4.3,medium
+392,Suntalekhola,west bengal,city,4,oct-mar,village,eastern,2,4.3,medium
+393,Bindu,west bengal,nature,4,oct-mar,scenic point,eastern,1.5,4.2,medium
+394,Lepchajagat,west bengal,city,4.3,oct-mar,hill station,eastern,3,4.5,medium
+395,Tinchuley,west bengal,city,4.2,oct-mar,village,eastern,2,4.4,medium
+396,Lava Monastery,west bengal,religious,4.5,oct-mar,monastery,eastern,1.5,4.6,medium
+397,Rishyap,west bengal,city,4.4,oct-mar,hill village,eastern,2,4.6,medium
+398,Neora Valley National Park,west bengal,wildlife,4.6,oct-apr,national park,eastern,5,4.7,medium
+399,Pedong,west bengal,city,4,oct-mar,hill town,eastern,2,4.2,medium
+400,Kolakham,west bengal,city,4.3,oct-mar,village,eastern,2,4.5,medium
+401,Sajnekhali Watch Tower,west bengal,city,4.4,nov-mar,wildlife viewpoint,eastern,2,4.6,medium
+402,Dobanki Canopy Walk,west bengal,city,4.5,nov-mar,nature walk,eastern,2,4.7,medium
+403,Henry Island,west bengal,nature,4.2,oct-mar,beach,eastern,3,4.4,low
+404,Junput Beach,west bengal,nature,4.1,oct-mar,beach,eastern,2.5,4.3,low
+405,Shantiniketan Sonajhuri Haat,west bengal,city,4.6,nov-feb,cultural market,eastern,2,4.7,medium
+406,Vantawng Falls,mizoram,nature,4.6,oct-mar,waterfall,north eastern,2.5,4.7,medium
+407,Phawngpui Blue Mountain,mizoram,nature,4.7,oct-mar,mountain peak,north eastern,4,4.8,medium
+408,Reiek Peak,mizoram,nature,4.5,oct-mar,hill,north eastern,3,4.6,medium
+409,Dampa Tiger Reserve,mizoram,wildlife,4.4,nov-mar,wildlife sanctuary,north eastern,5,4.6,medium
+410,Tam Dil Lake,mizoram,nature,4.3,oct-mar,lake,north eastern,2,4.5,low
+411,Palak Dil Lake,mizoram,nature,4.2,oct-mar,lake,north eastern,2,4.4,low
+412,Lushai Hills,mizoram,city,4.4,oct-mar,hill range,north eastern,3,4.6,medium
+413,Murlen National Park,mizoram,wildlife,4.3,nov-mar,national park,north eastern,4,4.5,medium
+414,Hmuifang Hill,mizoram,nature,4.4,oct-mar,hill,north eastern,2.5,4.5,medium
+415,Chhimtuipui River,mizoram,city,4.1,oct-mar,river,north eastern,1.5,4.3,low
+416,Lunglei Town Viewpoint,mizoram,nature,4,oct-mar,viewpoint,north eastern,1,4.2,low
+417,Thorangtlang Wildlife Sanctuary,mizoram,wildlife,4.2,nov-mar,wildlife sanctuary,north eastern,4,4.4,medium
+418,Tuirihiau Falls,mizoram,nature,4.5,oct-mar,waterfall,north eastern,2,4.6,medium
+419,Khawnglung Wildlife Sanctuary,mizoram,wildlife,4.1,nov-mar,wildlife sanctuary,north eastern,4,4.3,medium
+420,Mizoram State Museum,mizoram,cultural,4.3,oct-mar,museum,north eastern,1.5,4.4,medium
+421,Solomon’s Temple Aizawl,mizoram,religious,4.6,oct-mar,religious site,north eastern,1.5,4.7,low
+422,Falkawn Village,mizoram,city,4.2,oct-mar,village,north eastern,2,4.4,medium
+423,Chawngchilhi Cave,mizoram,nature,4.1,oct-mar,cave,north eastern,2,4.3,low
+424,Saiha Town,mizoram,city,4,oct-mar,hill town,north eastern,2,4.2,medium
+425,Zobawk Sports Academy Viewpoint,mizoram,nature,4.1,oct-mar,scenic point,north eastern,1.5,4.3,medium
+426,Dal Lake Shikara Ride,jammu and kashmir,nature,4.8,apr-oct,lake,northern,2,4.7,low
+427,Nigeen Lake,jammu and kashmir,nature,4.6,apr-oct,lake,northern,2,4.6,low
+428,Mughal Gardens Srinagar,jammu and kashmir,city,4.7,apr-oct,garden,northern,2,4.6,low
+429,Pari Mahal,jammu and kashmir,historical,4.5,apr-oct,monument,northern,1.5,4.5,medium
+430,Hazratbal Shrine,jammu and kashmir,religious,4.7,apr-oct,religious site,northern,1.5,4.7,low
+431,Shankaracharya Temple Srinagar,jammu and kashmir,religious,4.8,apr-oct,temple,northern,2,4.7,low
+432,Dachigam National Park,jammu and kashmir,wildlife,4.6,may-oct,national park,northern,4,4.6,medium
+433,Sonamarg Meadow,jammu and kashmir,nature,4.7,may-sep,valley,northern,3,4.7,medium
+434,Thajiwas Glacier,jammu and kashmir,city,4.6,may-sep,glacier,northern,3,4.6,medium
+435,Baltal Valley,jammu and kashmir,nature,4.4,jun-sep,valley,northern,2.5,4.4,medium
+436,Gulmarg Gondola,jammu and kashmir,city,4.8,dec-mar,adventure,northern,3,4.8,high
+437,Apharwat Peak,jammu and kashmir,nature,4.7,dec-mar,mountain peak,northern,3,4.7,medium
+438,Khilanmarg,jammu and kashmir,city,4.6,mar-jun,meadow,northern,2.5,4.6,medium
+439,Betaab Valley Pahalgam,jammu and kashmir,nature,4.7,apr-oct,valley,northern,3,4.6,medium
+440,Aru Valley,jammu and kashmir,nature,4.6,apr-oct,valley,northern,3,4.6,medium
+441,Baisaran Valley,jammu and kashmir,city,4.8,apr-oct,meadow,northern,2.5,4.7,medium
+442,Sheshnag Lake,jammu and kashmir,nature,4.5,jun-sep,lake,northern,2,4.5,low
+443,Amarnath Base Camp Baltal,jammu and kashmir,city,4.6,jul-aug,pilgrimage site,northern,4,4.6,medium
+444,Verinag Spring,jammu and kashmir,city,4.4,apr-oct,spring,northern,1.5,4.4,medium
+445,Kokernag Botanical Garden,jammu and kashmir,city,4.5,apr-oct,garden,northern,2,4.5,low
+446,Kumbhalgarh Fort,rajasthan,historical,4.7,oct-mar,fort,western,3,4.8,medium
+447,Ranakpur Jain Temple,rajasthan,religious,4.7,oct-mar,temple,western,2.5,4.8,low
+448,Nahargarh Biological Park,rajasthan,wildlife,4.3,oct-mar,wildlife sanctuary,western,4,4.5,medium
+449,Jal Mahal Jaipur,rajasthan,historical,4.5,oct-mar,monument,western,1.5,4.4,medium
+450,Sisodia Rani Garden,rajasthan,city,4.2,oct-mar,garden,western,1.5,4.4,low
+451,Gaitore Ki Chhatriyan,rajasthan,historical,4.3,oct-mar,memorial,western,1.5,4.5,low
+452,Mandawa Fort,rajasthan,historical,4.4,oct-mar,fort,western,2,4.6,medium
+453,Tal Chhapar Blackbuck Sanctuary,rajasthan,wildlife,4.4,oct-mar,wildlife sanctuary,western,4,4.6,medium
+454,Khuri Sand Dunes,rajasthan,city,4.5,oct-mar,desert,western,3,4.6,medium
+455,Desert National Park,rajasthan,wildlife,4.3,oct-mar,national park,western,5,4.5,medium
+456,Bhandasar Jain Temple,rajasthan,religious,4.4,oct-mar,temple,western,1.5,4.6,low
+457,Junagarh Fort Bikaner,rajasthan,historical,4.6,oct-mar,fort,western,2.5,4.7,medium
+458,Karni Mata Temple,rajasthan,religious,4.5,oct-mar,temple,western,2,4.6,low
+459,Menal Waterfall,rajasthan,nature,4.2,jul-sep,waterfall,western,2,4.4,medium
+460,Keoladeo Ghana Bird Sanctuary,rajasthan,wildlife,4.6,oct-mar,bird sanctuary,western,4,4.7,medium
+461,Sambhar Salt Lake,rajasthan,nature,4.3,oct-mar,lake,western,2.5,4.5,low
+462,Talakona Stepwell,rajasthan,city,4.1,oct-mar,stepwell,western,1.5,4.3,medium
+463,Chand Baori Abhaneri,rajasthan,city,4.8,oct-mar,stepwell,western,2,4.8,medium
+464,Fateh Sagar Lake Udaipur,rajasthan,nature,4.6,oct-mar,lake,western,2,4.6,low
+465,Sajjangarh Monsoon Palace,rajasthan,historical,4.5,oct-mar,palace,western,2,4.6,medium
+466,Wagah Border Ceremony,punjab,city,4.8,oct-mar,border crossing,northern,2,4.7,medium
+467,Golden Temple Museum,punjab,cultural,4.6,oct-mar,museum,northern,1.5,4.6,medium
+468,Rambagh Gardens,punjab,city,4.4,oct-mar,garden,northern,2,4.5,low
+469,Durgiana Temple,punjab,religious,4.5,oct-mar,temple,northern,1.5,4.6,low
+470,Harike Wetland,punjab,wildlife,4.2,nov-mar,bird sanctuary,northern,3,4.4,medium
+471,Qila Mubarak Patiala,punjab,historical,4.4,oct-mar,fort,northern,2,4.5,medium
+472,Sheesh Mahal Patiala,punjab,historical,4.5,oct-mar,palace,northern,2,4.6,medium
+473,Baradari Gardens Patiala,punjab,city,4.3,oct-mar,garden,northern,1.5,4.4,low
+474,Fateh Burj Chappar Chiri,punjab,historical,4.3,oct-mar,memorial,northern,1,4.4,low
+475,Virasat-e-Khalsa,punjab,city,4.7,oct-mar,cultural museum,northern,2,4.8,medium
+476,Ropar Wetland,punjab,city,4.1,nov-mar,wetland,northern,3,4.3,medium
+477,Kila Raipur Sports Festival Ground,punjab,city,4.2,feb-mar,cultural site,northern,2,4.4,medium
+478,Devi Talab Mandir,punjab,religious,4.5,oct-mar,temple,northern,1.5,4.6,low
+479,Pushpa Gujral Science City,punjab,city,4.4,oct-mar,science center,northern,2,4.5,medium
+480,Shahpur Kandi Fort,punjab,historical,4.1,oct-mar,fort,northern,2,4.3,medium
+481,Mukteshwar Mahadev Temple Pathankot,punjab,religious,4.4,oct-mar,temple,northern,1.5,4.6,low
+482,Kathgarh Temple,punjab,religious,4.3,oct-mar,temple,northern,1.5,4.5,low
+483,Chhatbir Zoo,punjab,wildlife,4.5,oct-mar,zoo,northern,3,4.6,medium
+484,Rose Garden Ludhiana,punjab,city,4.2,feb-mar,park,northern,1.5,4.4,low
+485,Thunder Zone Amusement Park,punjab,entertainment,4.1,oct-mar,amusement park,northern,3,4.3,high
+486,Thiruchendur Murugan Temple,tamil nadu,religious,4.7,oct-mar,temple,southern,2,4.7,low
+487,Courtallam Five Falls,tamil nadu,nature,4.6,sep-jan,waterfall,southern,2.5,4.6,medium
+488,Pamban Bridge,tamil nadu,city,4.6,oct-mar,bridge,southern,1,4.6,medium
+489,Thanjavur Palace,tamil nadu,historical,4.5,oct-mar,palace,southern,2,4.6,medium
+490,Vattakanal,tamil nadu,city,4.4,oct-mar,hill village,southern,3,4.5,medium
+491,Kolukkumalai Tea Estate,tamil nadu,city,4.7,sep-mar,plantation,southern,3,4.7,medium
+492,Meghamalai Hills,tamil nadu,city,4.6,oct-mar,hill range,southern,3,4.6,medium
+493,Sirumalai Hills,tamil nadu,nature,4.4,oct-mar,hill,southern,2.5,4.5,medium
+494,Chitrangudi Bird Sanctuary,tamil nadu,wildlife,4.2,nov-mar,bird sanctuary,southern,3,4.4,medium
+495,Puliyancholai Falls,tamil nadu,nature,4.3,sep-jan,waterfall,southern,2,4.5,medium
+496,Gingee Hills,tamil nadu,nature,4.3,oct-mar,hill,southern,2,4.4,medium
+497,Arignar Anna Zoological Park,tamil nadu,wildlife,4.6,oct-mar,zoo,southern,4,4.6,medium
+498,Tharangambadi Danish Fort,tamil nadu,historical,4.4,oct-mar,fort,southern,2,4.5,medium
+499,Manjolai Hills,tamil nadu,nature,4.1,oct-mar,hill,southern,3,4.3,medium
+500,Valparai Tea Plantations,tamil nadu,city,4.6,sep-mar,plantation,southern,3,4.6,medium

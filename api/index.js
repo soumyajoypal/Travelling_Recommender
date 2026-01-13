@@ -4,6 +4,7 @@ const cors = require("cors");
 const connectDB = require("./database/connectDB");
 const errorHandler = require("./middleware/errorHandler");
 const authRouter = require("./routers/authRouters");
+const recommenderRouter = require("./routers/recommenderRouter");
 const app = express();
 app.use(express.json());
 app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
@@ -11,6 +12,7 @@ app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
 const port = process.env.PORT || 3000;
 
 app.use("/api/auth", authRouter);
+app.use("/api/recommendations", recommenderRouter);
 app.use(errorHandler);
 const start = async () => {
   try {

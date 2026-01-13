@@ -1,0 +1,201 @@
+ReviewID,destination_id,UserID,Rating,ReviewText
+1,178,27,2,"The sanctuary had potential, but poor maintenance and lack of facilities made the visit disappointing."
+2,411,183,1,"The lake area was unclean and poorly managed, which took away from the overall experience."
+3,427,12,2,"The surroundings of the lake were neglected, and the visit did not feel enjoyable."
+4,358,59,3,"The mountain peak offered decent views, but the experience was fairly ordinary overall."
+5,489,53,2,"The palace looked impressive from outside, but the interiors were poorly maintained."
+6,473,108,4,"The garden was well-kept and pleasant, making it a nice place for a relaxed walk."
+7,477,135,3,"The cultural site was informative, though it lacked proper guidance and engagement."
+8,365,64,1,"The fort suffered from poor upkeep, and many areas were inaccessible or damaged."
+9,198,30,2,The lake visit was underwhelming due to crowding and inadequate cleanliness.
+10,419,109,5,An amazing wildlife sanctuary with rich biodiversity and a truly memorable experience.
+11,253,86,4,"The beach was clean and enjoyable, offering a relaxing and pleasant atmosphere."
+12,305,213,2,"The park was poorly maintained, with broken facilities and limited seating areas."
+13,148,166,4,The fort was well preserved and offered interesting insights into historical architecture.
+14,300,26,1,"The temple was overcrowded and lacked proper management, affecting the peacefulness."
+15,75,103,5,An outstanding museum with well-curated exhibits and informative displays.
+16,434,20,4,"The glacier view was impressive, and the visit was both refreshing and enjoyable."
+17,416,254,5,The viewpoint offered breathtaking scenery and was definitely the highlight of the trip.
+18,379,10,5,An incredible trekking experience with beautiful trails and stunning natural views.
+19,349,69,1,The national park experience was disappointing due to limited accessibility and poor facilities.
+20,393,167,5,The scenic point offered stunning views and was absolutely worth the visit.
+21,422,35,1,The village lacked basic facilities and did not feel welcoming.
+22,471,170,5,A magnificent fort with rich history and impressive architecture.
+23,346,71,5,An excellent wildlife sanctuary with diverse species and well-managed trails.
+24,12,30,4,"The park was clean and pleasant, ideal for a short relaxing break."
+25,195,242,1,The fort was poorly maintained and many sections were unsafe to explore.
+26,466,291,5,"Surprisingly well-organized and smooth, making the experience stress-free."
+27,174,154,5,A fascinating cave with unique formations and a memorable atmosphere.
+28,56,82,2,The waterfall area was dirty and lacked proper safety measures.
+29,117,196,4,The beach was enjoyable with clean surroundings and calm waters.
+30,160,56,1,The valley visit was disappointing due to poor accessibility and upkeep.
+31,64,213,1,The beach was overcrowded and not well maintained.
+32,56,22,3,"The waterfall was decent, though the flow and surroundings were unimpressive."
+33,15,32,4,A well-kept monument that offers insight into local history.
+34,280,79,4,The temple was peaceful and reasonably well managed.
+35,382,37,1,The viewpoint was neglected and offered limited visibility.
+36,24,272,3,An average beach experience with nothing particularly special.
+37,390,260,2,The wildlife hub lacked proper information and organization.
+38,204,251,3,"The monastery was calm, but the visit felt somewhat incomplete."
+39,84,133,2,Poor management and limited facilities reduced the overall experience.
+40,211,197,4,A respectful and well-maintained memorial that offers meaningful insights.
+41,438,138,2,The meadow was poorly maintained and lacked basic cleanliness.
+42,49,110,3,"The zoo was average, with some areas well kept and others neglected."
+43,399,201,5,A beautiful hill town with pleasant weather and scenic surroundings.
+44,57,239,1,"The beach was unclean and overcrowded, making the visit unpleasant."
+45,263,235,4,The hill area was peaceful and offered nice views.
+46,411,284,3,The lake was calm but lacked proper facilities and upkeep.
+47,341,55,1,Poor maintenance and heavy crowding ruined the beach experience.
+48,384,140,1,The village infrastructure was weak and poorly managed.
+49,470,244,2,The sanctuary lacked proper management and viewing facilities.
+50,152,180,2,The waterfall site was unsafe and not well maintained.
+51,23,188,1,The shrine was overcrowded and poorly organized.
+52,316,211,1,The mosque surroundings were unclean and poorly managed.
+53,456,275,4,A calm and clean temple that provides a peaceful experience.
+54,165,21,5,An exciting trekking route with beautiful trails and views.
+55,3,3,1,Poor crowd control reduced the overall temple experience.
+56,204,199,2,The monastery was neglected and lacked basic visitor facilities.
+57,33,254,2,The landmark was unimpressive and poorly maintained.
+58,398,85,1,Limited access and poor facilities affected the park visit.
+59,416,135,3,"The viewpoint was decent, though the scenery was partly obstructed."
+60,187,132,1,The temple was overcrowded and lacked proper management.
+61,365,251,1,The fort showed signs of neglect and poor maintenance.
+62,17,272,3,The promenade was decent for a short walk but not very engaging.
+63,305,103,2,The park was poorly maintained with limited facilities.
+64,431,68,1,Poor crowd control affected the peaceful atmosphere of the temple.
+65,351,269,1,The beach was unclean and not properly managed.
+66,130,179,2,Heavy crowding and litter spoiled the beach visit.
+67,375,205,1,The river area was polluted and lacked basic cleanliness.
+68,238,138,1,The waterfall site felt unsafe and poorly maintained.
+69,181,140,1,The temple surroundings were untidy and poorly organized.
+70,317,89,4,The race track was well maintained and exciting to watch.
+71,352,93,3,"The fort was average, with some interesting sections but limited upkeep."
+72,373,112,4,"The lake was calm and pleasant, making it a nice place to relax."
+73,436,55,3,The adventure activities were okay but could be better organized.
+74,405,60,1,The market was disorganized and lacked proper facilities.
+75,23,84,4,A peaceful shrine that was clean and well managed.
+76,140,248,4,The monument was well preserved and informative.
+77,288,192,2,The rock carvings were poorly protected and hard to appreciate.
+78,90,40,4,A well-maintained fort with interesting historical features.
+79,146,275,5,An outstanding sanctuary with rich wildlife and a memorable experience.
+80,439,182,3,The valley was pleasant but lacked proper facilities and viewpoints.
+81,7,59,3,"The temple visit was decent, though it felt somewhat crowded."
+82,486,245,3,An average experience with limited management and guidance.
+83,243,262,4,A well-maintained memorial that offers meaningful historical insight.
+84,463,6,5,A beautifully preserved stepwell with impressive architecture.
+85,367,157,1,The gurudwara was overcrowded and not well managed.
+86,247,289,1,Poor organization and crowd control reduced the temple experience.
+87,326,4,5,A vibrant market with great variety and lively atmosphere.
+88,147,193,4,The park was well managed and offered a pleasant natural experience.
+89,12,49,3,"The park was average, suitable for a short visit only."
+90,2,258,2,The tomb was neglected and lacked proper maintenance.
+91,443,7,4,A peaceful pilgrimage site with good facilities for visitors.
+92,226,28,1,The palace interiors were poorly maintained and disappointing.
+93,304,225,4,A calm and clean gurudwara offering a peaceful experience.
+94,234,238,1,The lake surroundings were unclean and poorly maintained.
+95,14,290,3,The memorial was decent but lacked detailed information.
+96,171,100,4,"The lake was clean and relaxing, ideal for a short visit."
+97,461,263,3,An average lake experience with limited amenities.
+98,343,37,4,The waterfall was scenic and enjoyable to visit.
+99,344,24,1,Poor accessibility and maintenance spoiled the mountain peak visit.
+100,324,29,3,The museum was informative but felt somewhat limited in exhibits.
+101,401,54,3,The viewpoint offered decent sights but lacked proper viewing facilities.
+102,336,251,5,A stunning waterfall with breathtaking views and a refreshing atmosphere.
+103,135,285,4,The beach was clean and enjoyable for a relaxed visit.
+104,460,268,4,A pleasant bird sanctuary with good observation points.
+105,353,221,1,The fort was poorly maintained and difficult to explore.
+106,417,44,1,Poor facilities and management reduced the sanctuary experience.
+107,55,212,5,An impressive fort with rich history and excellent preservation.
+108,148,97,4,A well-maintained fort with interesting historical features.
+109,103,99,4,A nice sanctuary offering a good wildlife viewing experience.
+110,215,174,2,The memorial was neglected and lacked proper upkeep.
+111,466,152,3,The border crossing was functional but not very organized.
+112,46,194,3,"The temple visit was decent, though somewhat crowded."
+113,295,242,3,An average beach experience with limited attractions.
+114,233,189,2,The dam area was poorly maintained and lacked visitor facilities.
+115,207,2,5,A powerful and well-presented memorial that leaves a strong impression.
+116,160,43,4,The valley was scenic and pleasant to explore.
+117,439,84,3,The valley was decent but lacked proper viewpoints.
+118,209,27,4,A well-managed park with good natural surroundings.
+119,469,146,4,A peaceful temple that was clean and well organized.
+120,346,299,5,An excellent wildlife sanctuary with rich biodiversity and well-managed trails.
+121,486,115,5,A beautifully maintained temple offering a calm and spiritual experience.
+122,499,40,1,The hill area was poorly maintained and lacked basic visitor facilities.
+123,209,218,5,A wonderful national park with diverse landscapes and wildlife.
+124,206,128,5,The valley offered breathtaking views and a memorable experience.
+125,280,40,2,Overcrowding and poor management affected the temple visit.
+126,3,82,5,An impressive temple with clean surroundings and good organization.
+127,93,205,1,The lake surroundings were dirty and poorly maintained.
+128,483,251,2,The zoo lacked proper care and visitor facilities.
+129,9,209,3,The stepwell was interesting but needed better maintenance.
+130,2,228,3,An average visit with limited information and upkeep.
+131,42,207,3,The park was decent but lacked attractive features.
+132,210,54,1,Poor infrastructure reduced the overall park experience.
+133,302,169,3,The temple visit was okay but felt somewhat disorganized.
+134,209,164,3,An average national park experience with limited access.
+135,200,19,1,The valley was neglected and poorly managed.
+136,64,252,1,The beach was unclean and overcrowded.
+137,460,12,1,The sanctuary was poorly maintained and difficult to explore.
+138,67,193,4,A well-preserved historical site with interesting details.
+139,47,103,2,Poor cleanliness and crowd control reduced the temple experience.
+140,47,10,3,The temple visit was decent but lacked proper organization.
+141,179,144,2,The orchard was neglected and poorly maintained.
+142,135,221,3,An average beach experience with limited facilities.
+143,31,282,2,The building was poorly maintained and not visitor-friendly.
+144,232,98,4,A well-preserved fort with interesting historical details.
+145,364,97,4,A pleasant sanctuary offering good wildlife viewing.
+146,387,171,4,The river area was clean and enjoyable for a short visit.
+147,130,10,1,The beach was dirty and overcrowded.
+148,453,34,4,A well-managed sanctuary with decent facilities.
+149,459,289,2,Poor upkeep and safety concerns affected the waterfall visit.
+150,338,47,5,A beautiful and peaceful temple with excellent maintenance.
+151,434,43,2,The glacier area was poorly managed and difficult to access.
+152,163,216,2,The lake surroundings were unclean and neglected.
+153,356,190,2,The fort showed signs of neglect and damage.
+154,384,178,4,A pleasant village with friendly locals and simple charm.
+155,386,39,3,An average sanctuary experience with limited facilities.
+156,202,108,4,The hill offered nice views and a calm atmosphere.
+157,358,224,1,Poor access and maintenance reduced the peak experience.
+158,18,296,5,A stunning monument with impressive architecture and history.
+159,90,19,1,The fort lacked proper upkeep and visitor facilities.
+160,380,191,4,The plantation was pleasant and well maintained.
+161,296,285,1,The beach was dirty and poorly managed.
+162,405,99,3,"The market was average, with limited variety and organization."
+163,17,75,1,The promenade was neglected and not enjoyable.
+164,317,262,5,An exciting race track with excellent facilities and atmosphere.
+165,351,252,4,A clean and enjoyable beach suitable for a relaxed visit.
+166,270,152,1,The hill area lacked maintenance and basic facilities.
+167,323,26,2,The fort was poorly maintained and difficult to explore.
+168,426,38,2,The lake surroundings were unclean and neglected.
+169,166,172,2,Overcrowding and poor management reduced the experience.
+170,417,135,4,A well-managed sanctuary with decent wildlife sightings.
+171,259,245,3,The sanctuary was okay but lacked proper viewing points.
+172,96,92,3,The crossing was functional but not very organized.
+173,291,109,5,A beautiful beach with clean surroundings and scenic views.
+174,379,193,4,A good trekking experience with enjoyable trails.
+175,492,26,3,The hill range offered decent scenery but little infrastructure.
+176,265,83,1,The cave was poorly lit and not well maintained.
+177,118,123,3,The peak offered decent views but was hard to access.
+178,499,127,2,Poor upkeep and accessibility affected the hill visit.
+179,386,33,5,An outstanding sanctuary with rich wildlife and natural beauty.
+180,442,116,3,The lake was calm but lacked proper facilities and upkeep.
+181,437,133,1,Poor access and maintenance reduced the mountain peak experience.
+182,230,138,4,A clean and well-managed temple suitable for a peaceful visit.
+183,306,136,5,An excellent entertainment spot with fun activities and great ambiance.
+184,284,18,1,Poor maintenance and limited facilities affected the sanctuary visit.
+185,474,81,4,A well-maintained memorial offering meaningful historical insight.
+186,386,262,4,A pleasant sanctuary with decent wildlife viewing opportunities.
+187,448,91,2,Neglect and poor organization reduced the overall experience.
+188,222,240,5,A magnificent palace with impressive architecture and rich history.
+189,372,124,2,The valley was poorly maintained and lacked basic facilities.
+190,250,64,5,A beautifully maintained temple with a calm spiritual atmosphere.
+191,277,166,1,Overcrowding and poor management affected the temple visit.
+192,262,91,4,A well-organized temple that offers a peaceful experience.
+193,237,233,3,An average beach visit with limited attractions.
+194,302,274,4,The temple was clean and pleasant to visit.
+195,398,223,2,Poor infrastructure and access reduced the park experience.
+196,470,198,1,The sanctuary lacked proper upkeep and visitor facilities.
+197,339,294,3,The site was informative but could be better managed.
+198,116,101,2,Poor safety measures and upkeep affected the waterfall visit.
+199,355,203,2,The fort showed clear signs of neglect and damage.
+200,48,113,4,A well-maintained cricket ground with good facilities and a pleasant atmosphere.

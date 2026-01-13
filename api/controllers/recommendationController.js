@@ -1,12 +1,19 @@
-const recommendService = require("../services/recommend.service");
+const User = require("../models/userSchema");
+const { processRecommendation } = require("../services/recommenderService");
 
 getRecommendations = async (req, res) => {
   const userId = req.user.id;
-  const result = await recommendService.processRecommendation(userId);
+  const prefs = req.body;
 
-  return res.status(200).json({
-    recommenderUsed: result.mode,
-    payloadSentToML: result.payload,
+  await User.findByIdAndUpdate(userId, { preferences: prefs });
+
+  const result = await processRecommendation(userId, prefs);
+
+  return res.status(201).json({
+    data: {
+      recommendations: result.recommendations,
+      recommenderMode: result.mode,
+    },
     message: "Recommendation routing successful",
   });
 };
