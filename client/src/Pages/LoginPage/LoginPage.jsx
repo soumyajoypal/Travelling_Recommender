@@ -27,11 +27,8 @@ const LoginPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     dispatch(clearError());
-
     const result = await dispatch(loginUser(form));
-
     if (loginUser.fulfilled.match(result)) {
       navigate(redirectPath, { replace: true });
     }
@@ -44,88 +41,100 @@ const LoginPage = () => {
   }, [dispatch]);
 
   return (
-    <div className="min-h-screen relative bg-slate-950">
-      {/* Back button */}
+    <div className="min-h-screen relative flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+      {/* Background overlay */}
+      <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+
+      {/* Back Button */}
       <button
         onClick={() => navigate("/")}
-        className="w-12 h-12 rounded-full bg-white absolute top-5 left-5 z-50
+        className="absolute top-6 left-6 z-50 w-12 h-12 rounded-full
+                   bg-white/10 backdrop-blur-md border border-white/20
                    flex items-center justify-center
-                   hover:scale-110 transition"
+                   hover:scale-110 hover:bg-white/20 transition"
       >
-        <FontAwesomeIcon icon={faArrowLeft} className="text-black" />
+        <FontAwesomeIcon icon={faArrowLeft} className="text-white" />
       </button>
 
-      <div className="flex items-center justify-center min-h-screen p-4">
-        <div className="flex flex-col w-full max-w-md bg-slate-900 p-10 rounded-xl shadow-xl space-y-5">
-          <h1 className="text-2xl font-bold text-center text-white">
-            Login to AquaSavvy
-          </h1>
+      {/* Login Card */}
+      <div
+        className="relative z-10 w-full max-w-md px-10 py-12 rounded-2xl
+                      bg-white/10 backdrop-blur-2xl border border-white/20
+                      shadow-2xl space-y-6"
+      >
+        {/* Heading */}
+        <div className="text-center space-y-2">
+          <h1 className="text-3xl font-semibold text-white">Welcome Back</h1>
+          <p className="text-sm text-white/70">
+            Log in to continue your journey
+          </p>
+        </div>
 
-          <form onSubmit={handleSubmit} className="space-y-4">
-            {/* Username */}
-            <div>
-              <label className="block text-sm text-gray-300 mb-1">
-                Username
-              </label>
-              <input
-                type="text"
-                name="username"
-                value={form.username}
-                onChange={handleChange}
-                className="w-full px-3 py-2 rounded-md bg-slate-700 text-white
-                           border border-gray-600 focus:outline-none
-                           focus:ring-2 focus:ring-teal-500"
-                required
-              />
-            </div>
-
-            {/* Password */}
-            <div>
-              <label className="block text-sm text-gray-300 mb-1">
-                Password
-              </label>
-              <input
-                type="password"
-                name="password"
-                value={form.password}
-                onChange={handleChange}
-                className="w-full px-3 py-2 rounded-md bg-slate-700 text-white
-                           border border-gray-600 focus:outline-none
-                           focus:ring-2 focus:ring-teal-500"
-                required
-              />
-            </div>
-
-            <button
-              type="submit"
-              disabled={status === "loading"}
-              className="w-full py-2 rounded-2xl font-semibold tracking-widest
-                         bg-teal-700 hover:bg-teal-800
-                         disabled:opacity-60 disabled:cursor-not-allowed
-                         transition"
-            >
-              {status === "loading" ? "Logging in..." : "Login"}
-            </button>
-          </form>
-
-          {/* Register link */}
-          <div className="text-center text-sm text-gray-400">
-            New to AquaSavvy?
-            <button
-              onClick={() => navigate("/register")}
-              className="ml-2 text-blue-400 hover:text-blue-500"
-            >
-              Create Account
-            </button>
+        {/* Form */}
+        <form onSubmit={handleSubmit} className="space-y-5">
+          {/* Username */}
+          <div>
+            <label className="block text-sm text-white/70 mb-1">Username</label>
+            <input
+              type="text"
+              name="username"
+              value={form.username}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-3 rounded-xl
+                         bg-white/10 text-white placeholder-white/50
+                         border border-white/20
+                         focus:outline-none focus:ring-2 focus:ring-cyan-400/50"
+            />
           </div>
 
-          {/* Error */}
-          {error && (
-            <p className="text-red-500 text-sm text-center">
-              {error.message || error}
-            </p>
-          )}
+          {/* Password */}
+          <div>
+            <label className="block text-sm text-white/70 mb-1">Password</label>
+            <input
+              type="password"
+              name="password"
+              value={form.password}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-3 rounded-xl
+                         bg-white/10 text-white placeholder-white/50
+                         border border-white/20
+                         focus:outline-none focus:ring-2 focus:ring-cyan-400/50"
+            />
+          </div>
+
+          {/* Submit */}
+          <button
+            type="submit"
+            disabled={status === "loading"}
+            className="w-full py-3 rounded-full font-semibold tracking-wide
+                       bg-cyan-500/90 text-slate-900
+                       hover:bg-cyan-400
+                       disabled:opacity-60 disabled:cursor-not-allowed
+                       transition"
+          >
+            {status === "loading" ? "Logging in..." : "Login →"}
+          </button>
+        </form>
+
+        {/* Register */}
+        <div className="text-center text-sm text-white/70">
+          New here?
+          <button
+            onClick={() => navigate("/register")}
+            className="ml-2 text-cyan-400 hover:text-cyan-300 transition"
+          >
+            Create account
+          </button>
         </div>
+
+        {/* Error */}
+        {error && (
+          <p className="text-red-400 text-sm text-center">
+            {error.message || error}
+          </p>
+        )}
       </div>
     </div>
   );
